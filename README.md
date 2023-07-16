@@ -32,6 +32,10 @@ Une fois le recalage terminé, les paramètres de translation, le nombre d'itér
 
 L'image mobile est ensuite ré-échantillonnée pour l'aligner spatialement sur l'image fixe en utilisant la transformation finale obtenue.
 
+Résultat de l'image 2 recalé sur l'image 1 par translation suivant 3 points de vue (de côté, de hauteur, de face) :
+
+![Original Image](./resources/plot_registration_2.png)
+
 Nous avons cependant rencontré quelques difficultés lors de cet étape, notamment en ce qui concerne la compréhension des étapes de recalage et des objets ITK manipulés.
 
 Certaines méthodes, pour pouvoir fonctionner avec des images 3D, nécessitent d’ailleurs de modifier explicitement leurs types templatés, chose que nous avons mis un peu de temps à comprendre.
@@ -50,6 +54,14 @@ seed_position = (90, 70, 51)
 
 L'algorithme va ensuite permettre à la segmentation de se propager à partir de la seed dans l'image, en examinant les voxels voisins. Si la valeur d'un voxel voisin est comprise entre les seuils inférieur et supérieur, ce voxel est considéré comme faisant partie de la région d'intérêt et est étiqueté avec une valeur spécifique.
 
+Résultat de l'image 1 segmenté suivant 3 points de vue (de côté, de hauteur, de face) :
+
+![Original Image](./resources/plot_segmentation_1.png)
+
+Résultat de l'image 2 segmenté suivant 3 points de vue (de côté, de hauteur, de face) :
+
+![Original Image](./resources/plot_segmentation_2.png)
+
 Nous avons cependant rencontré quelques difficultés lors de cette étape notamment car nous avions voulu convertir les arrays obtenus en png puis l’envoyer à l’algorithme. Cependant la scalar range, ainsi que les valeurs de l’image en devenaient fortement altérées empêchant ainsi une propagation efficace de l’algorithme.
 Trouver une application nous permettant d’efficacement analyser le cerveau a été très utile également, souhaitant au départ trouver la seed manuellement.
 
@@ -65,7 +77,7 @@ Nous avons donc relocalisé la détection de la tumeur où le résultat nous sem
 
 Voici les résultats obtenus :
 
-Avant:
+Avant :
 
 ![Original Image](./resources/image_1.png)
 
@@ -73,7 +85,7 @@ Volume de la tumeur segmentée : 8026.0
 
 Intensité moyenne de la tumeur segmentée : 0.17743804
 
-Après 6 mois:
+Après 6 mois :
 
 ![Offset Image](./resources/image_2.png)
 
