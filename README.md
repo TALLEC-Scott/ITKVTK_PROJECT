@@ -65,7 +65,11 @@ Nous avons donc relocalisé la détection de la tumeur où le résultat nous sem
 
 Voici les résultats obtenus :
 
+Avant:
+
 ![Original Image](./resources/image_1.png)
+
+Après 6 mois:
 
 ![Offset Image](./resources/image_2.png)
 
