@@ -65,18 +65,22 @@ Nous avons donc relocalisé la détection de la tumeur où le résultat nous sem
 
 Voici les résultats obtenus :
 
+Avant:
+
 ![Original Image](./resources/image_1.png)
+
+Volume de la tumeur segmentée : 8026.0
+
+Intensité moyenne de la tumeur segmentée : 0.17743804
+
+Après 6 mois:
 
 ![Offset Image](./resources/image_2.png)
 
-
-Volume de la tumeur segmentée : 8026.0
-Intensité moyenne de la tumeur segmentée : 0.17743804
-
-Image 2
-
 Volume de la tumeur segmentée : 8524.0
+
 Intensité moyenne de la tumeur segmentée : 0.18844777
+
 
 # Conclusion
 
