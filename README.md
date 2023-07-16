@@ -73,8 +73,6 @@ Voici les résultats obtenus :
 Volume de la tumeur segmentée : 8026.0
 Intensité moyenne de la tumeur segmentée : 0.17743804
 
-Image 2
-
 Volume de la tumeur segmentée : 8524.0
 Intensité moyenne de la tumeur segmentée : 0.18844777
 
