@@ -65,7 +65,10 @@ Nous avons donc relocalisé la détection de la tumeur où le résultat nous sem
 
 Voici les résultats obtenus :
 
-Image 1
+![Original Image](./resources/image_1.png)
+
+![Offset Image](./resources/image_2.png)
+
 
 Volume de la tumeur segmentée : 8026.0
 Intensité moyenne de la tumeur segmentée : 0.17743804
