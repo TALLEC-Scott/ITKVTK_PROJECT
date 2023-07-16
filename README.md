@@ -12,11 +12,17 @@ La segmentation : Cette partie consiste à isoler la tumeur du reste de l’imag
 
 Nous avons enfin terminé par l’analyse de nos résultats suivant plusieurs métriques pour déterminer l’évolution de la tumeur entre nos deux images.
 
+- "Projet_ITK-VTK.ipynb" est le notebook contenant le code de notre projet.
+- "Data/" est le dossier contenant les deux images 3D étudiées.
+- "resources/" est le dossier contenant les images d'illustration utilisées dans ce README
+
 # Recalage
 
 Nous avons remarqué qu’il existe une différence d'alignement latéral entre nos deux images.
 
-Ainsi, l’algorithme de recalage utilisé aligne nos deux images par une transformation de translation en 3D.
+Nous avons hésité entre plusieurs techniques de recalage que nous avons implémenté en utilisant différentes librairies comme OpenCV2 ou SimpleITK, disponible dans le dossier "Recalage".
+
+Nous avons finalement implémenté un algorithme de recalage alignant nos deux images par une transformation de translation en 3D.
 
 Cet algorithme automatique utilise un optimiseur de descente de gradient pour trouver la meilleure transformation qui maximise la similarité entre les images, similarité évaluée à l'aide d'une métrique basée sur les moindres carrés.
 
