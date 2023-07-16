@@ -34,7 +34,7 @@ L'image mobile est ensuite ré-échantillonnée pour l'aligner spatialement sur 
 
 Résultat de l'image 2 recalé sur l'image 1 par translation suivant 3 points de vue (de côté, de hauteur, de face) :
 
-![Original Image](./resources/plot_registration_2.png)
+![Original Image](./resources/plot_registration_2.PNG)
 
 Nous avons cependant rencontré quelques difficultés lors de cet étape, notamment en ce qui concerne la compréhension des étapes de recalage et des objets ITK manipulés.
 
