@@ -1,6 +1,6 @@
 # ITKVTK_PROJECT
 
-AUTHORS : adam.ismaili, scott.talec, alexandre.netchaev
+AUTHORS : adam.ismaili, scott.tallec, alexandre.netchaev
 
 # Introduction
 
