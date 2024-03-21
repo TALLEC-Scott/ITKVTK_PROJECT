@@ -2,7 +2,7 @@
 
 AUTHORS : 
 - adam.ismaili
-- scott.tallec
+- [Scott TALLEC](https://github.com/TALLEC-Scott)
 - alexandre.netchaev
 
 # Introduction
